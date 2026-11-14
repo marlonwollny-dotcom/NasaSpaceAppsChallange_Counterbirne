@@ -4,6 +4,8 @@
 
 ▶ **Play in your browser:** https://marlonwollny-dotcom.github.io/NasaSpaceAppsChallange_Counterbirne/
 
+📄 **Demo slides (PDF, 7 slides):** https://marlonwollny-dotcom.github.io/NasaSpaceAppsChallange_Counterbirne/demo/Mission_Architect_Counterbirne.pdf
+
 No installation, no login, no external dependencies. The whole game is a single file (`index.html`).
 
 ## The problem
