@@ -4,7 +4,7 @@
 
 ▶ **Play in your browser:** https://marlonwollny-dotcom.github.io/NasaSpaceAppsChallange_Counterbirne/
 
-📄 **Demo slides (PDF, 7 slides):** https://marlonwollny-dotcom.github.io/NasaSpaceAppsChallange_Counterbirne/demo/Mission_Architect_Counterbirne.pdf
+📄 **Demo slides (PDF, 7 slides):** https://marlonwollny-dotcom.github.io/NasaSpaceAppsChallange_Counterbirne/demo/Mission_Architect_Counterbirne.pdf ([PowerPoint version](demo/Mission_Architect_Counterbirne.pptx))
 
 No installation, no login, no external dependencies. The whole game is a single file (`index.html`).
 
@@ -32,6 +32,20 @@ Four roles with deliberately conflicting goals: **Mission Lead** (stay under bud
 - Orbital period (Kepler’s 3rd law), eclipse duration, Tsiolkovsky rocket equation, link budget (rate ∝ antenna diameter² × power ÷ distance²), battery depth of discharge, solar-array degradation.
 - Planet radii, gravitational parameters, solar irradiance and distances from the [NASA Planetary Fact Sheets](https://nssdc.gsfc.nasa.gov/planetary/factsheet/).
 - Component masses, costs and science values are simplified game values; the in-game “Data & sources” panel separates real data from game-model values.
+
+## Repository contents
+
+| File | Purpose |
+|---|---|
+| `index.html` | The complete game: HTML, CSS and JavaScript in one file |
+| `demo/Mission_Architect_Counterbirne.pdf` | 7-slide project demo for the Space Apps submission |
+| `demo/Mission_Architect_Counterbirne.pptx` | The same slides as an editable PowerPoint file, with speaker notes |
+| `.nojekyll` | Empty file that tells GitHub Pages to publish the files as they are |
+| `README.md` | This description |
+
+## Run it locally
+
+Download `index.html` and open it in any modern browser (Chrome, Edge, Firefox, Safari). It works offline.
 
 ## Tech
 Plain HTML, CSS and JavaScript with Canvas graphics. No frameworks, no build step, works offline. Designs can be shared as links, and a leaderboard is stored locally in the browser.
